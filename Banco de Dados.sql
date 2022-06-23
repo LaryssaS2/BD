@@ -37,4 +37,10 @@ VALUES('Pantufa','199.00', 'Rosa','1UN', '45');
 INSERT INTO tb_produtos (nome,valor,descricao,quantidade,tamanho)
 VALUES('Calça Jeans','90.00','Preto','2UN','38');
 
+INSERT INTO tb_venda (UN, dt, pd)
+VALUES('1UN','30/05/22','Pantufa');
+
+INSERT INTO tb_venda (UN, dt, Pd)
+VALUES('2UN','30/05/22','Calça Jeans');
+
 select * from tb_produtos;
