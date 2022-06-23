@@ -18,6 +18,13 @@ quantidade varchar (45),
 tamanho varchar (100)
 );
 
+create table tb_venda(
+id_vendas int primary key auto_increment,
+UN varchar (100),
+dt varchar (100),
+produto varchar (100)
+);
+
 show tables;
 INSERT INTO tb_cliente (nome,email ,senha,numero)
 VALUES('Paulo','Paulo@t','345','998203932');
